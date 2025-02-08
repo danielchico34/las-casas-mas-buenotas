@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa en Renta</title>
+    <link rel="stylesheet" href="style.css"> <!-- Aquí se enlaza tu archivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Casa en Renta</h1>
+    </header>
+    
+    <section class="property">
+        <h2>Hermosa Casa en el Centro</h2>
+        <p><strong>Precio:</strong> $500,000</p>
+        <p><strong>Descripción:</strong> Casa de 3 habitaciones, 2 baños, con jardín y garaje.</p>
+
+        <!-- Galería de imágenes -->
+        <div class="gallery">
+            <img src="images/casa1.jpg" alt="Exterior de la casa">
+            <img src="images/casa2.jpg" alt="Interior de la casa">
+        </div>
+
+        <!-- Mapa de Google Maps -->
+        <h3>Ubicación</h3>
+        <div id="map"></div>
+    </section>
+
+    <footer>
+        <p>Contacto: info@tusitio.com</p>
+    </footer>
+
+    <!-- Aquí insertas tu script para Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap" async defer></script>
+    <script src="script.js"></script> <!-- Aquí se enlaza tu archivo JS si es necesario -->
+</body>
+</html>
