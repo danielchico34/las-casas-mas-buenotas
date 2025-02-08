@@ -1,5 +1,5 @@
 function showTime() {
-	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
+	document.getElementById('cue').innerHTML = new Date().toUTCString();
 }
 showTime();
 setInterval(function () {
